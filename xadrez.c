@@ -1,6 +1,6 @@
 // Desafio de Xadrez - MateCheck
 // Aluno: Samuel Figueiredo Vieira 
-// Maticula: 202507157906
+// Matricula: 202507157906
 // Nível Novato - Movimentação das Peças
 #include <stdio.h>
 
