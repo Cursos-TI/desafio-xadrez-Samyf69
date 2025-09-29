@@ -9,6 +9,7 @@
         int b = 1;
         int r = 1;
         int rainha = 8;
+        int cavalo = 1;
 
         //Mover a torre 5 casas a direita
             printf("Movimento da Torre\n");
@@ -29,6 +30,15 @@
             printf("Esquerda (%d)\n", r);
             r++;
         } while (r <= rainha);
+
+        //Movimentando o Cavalo
+        printf("Movimento Cavalo\n");
+        while (cavalo--) {
+            for (int i = 0; i < 2; i++) {
+                printf("Cima\n");
+            }
+            printf("Direita\n");
+        }   
     return 0;
     }
 
